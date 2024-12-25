@@ -15,8 +15,23 @@ bash
 
 Copy code
 
-`NASA-Battery-Analysis/ │ ├── cleaned_dataset/ │   ├── data/                        # Folder containing all 7565 CSV files │   └── metadata.csv                 # Metadata CSV file with battery attributes │ ├── notebooks/ │   └── exploratory_analysis.ipynb   # Jupyter Notebook for data exploration │ ├── output/ │   └── figures/                     # Generated plot figures saved as HTML files │ ├── src/ │   ├── __init__.py                  # Package initialization (optional) │   ├── data_loader.py               # Functions to load and preprocess data │   ├── plot_generator.py            # Functions to create visualizations │   └── main.py                      # Main script to run the analysis │ ├── requirements.txt                 # Python dependencies for the project └── README.md                        # Documentation for the project`
-
+```
+NASA-Battery-Analysis/
+├── cleaned_dataset/                 # Folder containing cleaned dataset and metadata
+│   ├── data/                        # Folder containing all 7565 CSV files
+│   └── metadata.csv                 # Metadata CSV file with battery attributes
+├── notebooks/                       # Jupyter Notebooks for exploratory analysis
+│   └── exploratory_analysis.ipynb   # Jupyter Notebook for data exploration
+├── output/                          # Folder to store generated outputs
+│   └── figures/                     # Generated plot figures saved as HTML files
+├── src/                             # Source code for the analysis
+│   ├── __init__.py                  # Package initialization (optional)
+│   ├── data_loader.py               # Functions to load and preprocess data
+│   ├── plot_generator.py            # Functions to create visualizations
+│   └── main.py                      # Main script to run the analysis
+├── requirements.txt                 # Python dependencies for the project
+└── README.md                        # Documentation for the project
+```
 * * *
 
 Installation and Setup
