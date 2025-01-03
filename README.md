@@ -117,8 +117,7 @@ Dependencies
 ------------
 
 All dependencies are listed in `requirements.txt`. Install them using:
-```
-bash
+```bash
 pip install -r requirements.txt
 ```
 * * *
