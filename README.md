@@ -33,49 +33,35 @@ NASA-Battery-Analysis/
 └── README.md                        # Documentation for the project
 ```
 * * *
-
-Installation and Setup
-----------------------
+## Installation and Setup
 
 ### Prerequisites
 
-*   Python 3.10 or higher
-*   Ensure `pip` is installed and updated
+* Python 3.10 or higher
+* Ensure `pip` is installed and updated
 
 ### Installation Steps
 
-1.  Clone this repository:
-    
-    bash
-    
-    Copy code
-    
-    `git clone <repository_url> cd NASA-Battery-Analysis`
-    
-2.  Install dependencies:
-    
-    bash
-    
-    Copy code
-    
-    `pip install -r requirements.txt`
-    
-3.  Run the main analysis script:
-    
-    bash
-    
-    Copy code
-    
-    `python src/main.py`
-    
-4.  Open the exploratory notebook:
-    
-    bash
-    
-    Copy code
-    
-    `jupyter notebook notebooks/exploratory_analysis.ipynb`
-    
+1. **Clone this repository:**
+    ```bash
+    git clone <repository_url>
+    cd NASA-Battery-Analysis
+    ```
+
+2. **Install dependencies:**
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3. **Run the main analysis script:**
+    ```bash
+    python src/main.py
+    ```
+
+4. **Open the exploratory notebook:**
+    ```bash
+    jupyter notebook notebooks/exploratory_analysis.ipynb
+    ```
 
 * * *
 
@@ -131,13 +117,10 @@ Dependencies
 ------------
 
 All dependencies are listed in `requirements.txt`. Install them using:
-
+```
 bash
-
-Copy code
-
-`pip install -r requirements.txt`
-
+pip install -r requirements.txt
+```
 * * *
 
 Contributions
